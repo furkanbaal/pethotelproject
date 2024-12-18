@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Hotel</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header>
+        <h1>Pet Hotel</h1>
+    </header>
+    <main>
+        <form id="reservationForm">
+            <h2>Rezervasyon Yap</h2>
+            <label for="petName">Pet Adı:</label>
+            <input type="text" id="petName" name="petName" required>
+            
+            <label for="ownerName">Sahip Adı:</label>
+            <input type="text" id="ownerName" name="ownerName" required>
+            
+            <label for="checkinDate">Giriş Tarihi:</label>
+            <input type="date" id="checkinDate" name="checkinDate" required>
+            
+            <label for="checkoutDate">Çıkış Tarihi:</label>
+            <input type="date" id="checkoutDate" name="checkoutDate" required>
+            
+            <button type="submit">Rezervasyon Yap</button>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
